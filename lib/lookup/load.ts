@@ -40,8 +40,8 @@ const BASIC_DEFS = [
 
 type Row = Record<string, unknown>
 
-async function getJson(url: string) {
-    const response = await fetch(url, {
+async function getJson(url: string | URL) {
+    const response = await fetch(String(url), {
         headers: { Accept: 'application/json' },
         cache: 'no-store',
         signal: AbortSignal.timeout(20000),
@@ -190,7 +190,7 @@ async function loadCrashes(dot: string, since: string) {
         fatalities: rowsResult.status === 'fulfilled' ? fatalities : null,
         injuries: rowsResult.status === 'fulfilled' ? injuries : null,
         partial,
-        monthly: [...byMonth.values()].sort((a, b) => a.month.localeCompare(b.month)),
+        monthly: Array.from(byMonth.values()).sort((a, b) => a.month.localeCompare(b.month)),
         recent: crashRows.slice(0, 6).map((row) => ({
             date: formatYmd(text(row.report_date)) || '—',
             place: [text(row.city), text(row.state)].filter(Boolean).join(', ') || '—',
