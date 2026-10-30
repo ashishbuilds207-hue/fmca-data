@@ -1,0 +1,30 @@
+<svg width="82" height="82" viewBox="0 0 82 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_dd_3_700)">
+<path d="M49.0717 15.0195C53.3588 15.0195 57.3204 17.3067 59.464 21.0195L67.5358 35.0003C69.6794 38.7131 69.6794 43.2875 67.5358 47.0003L59.464 60.9811C57.3204 64.6939 53.3589 66.9811 49.0717 66.9811L32.9281 66.9811C28.6409 66.9811 24.6794 64.6939 22.5358 60.9811L14.464 47.0003C12.3204 43.2875 12.3204 38.7131 14.464 35.0003L22.5358 21.0195C24.6794 17.3067 28.6409 15.0195 32.9281 15.0195L49.0717 15.0195Z" fill="white"/>
+<g clip-path="url(#clip0_3_700)">
+<path d="M48.0365 44.0625L36.9376 47.0365" stroke="#171718" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M51.0978 35.5098L30.0098 41.1603" stroke="#171718" stroke-width="1.625" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_dd_3_700" x="-1.9809" y="-0.980469" width="85.9615" height="85.9614" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="1"/>
+<feGaussianBlur stdDeviation="1"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.372549 0 0 0 0 0.290196 0 0 0 0 0.180392 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_3_700"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feMorphology radius="1" operator="dilate" in="SourceAlpha" result="effect2_dropShadow_3_700"/>
+<feOffset/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.890196 0 0 0 0 0.882353 0 0 0 0 0.870588 0 0 0 0.4 0"/>
+<feBlend mode="normal" in2="effect1_dropShadow_3_700" result="effect2_dropShadow_3_700"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_3_700" result="shape"/>
+</filter>
+<clipPath id="clip0_3_700">
+<rect width="26" height="26" fill="white" transform="translate(36.2418 23.2422) rotate(30)"/>
+</clipPath>
+</defs>
+</svg>
